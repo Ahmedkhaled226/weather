@@ -65,6 +65,12 @@ function displayData(data) {
             <div class="degree">${temperature}<sup>o</sup>C</div>
             <small>27.3<sup>o</sup></small>
             <div class="custom">${condition}</div>
+              <span><img src="https://routeweather.netlify.app/images/icon-umberella@2x.png" alt=""
+                            width="21" height="21"> ${rainChance}%</span>
+                    <span><img src="https://routeweather.netlify.app/images/icon-wind@2x.png" alt="" width="23"
+                            height="21"> ${windSpeed} km/h</span>
+                    <span><img src="https://routeweather.netlify.app/images/icon-compass@2x.png" alt=""
+                            width="21" height="21"> west</span>
         </div>
         </div>
             `;
