@@ -1,6 +1,6 @@
 async function getWeather(city = 'cairo') {
     try {
-        let response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=7d77b96c972b4d119a3151101212704&q=${city}&days=3`);
+        let response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=01650505bf9c46e6bf1184502241906&q=${city}&days=3`);
         if (!response.ok) {
             throw new Error('Failed to fetch weather data');
         }
